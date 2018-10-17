@@ -5,13 +5,13 @@ Using Procfile, deploy to heroku.
 
 ### Note:
 
-- Please set EMAIL / PASSWORD environment names in your setup
 - Add this to your build pack https://github.com/jontewks/puppeteer-heroku-buildpack
 - Add Heroku Scheduler here [article]](https://devcenter.heroku.com/articles/scheduler).  
 - Add some logging (for my setup, I used Timber.io).
 
 ### How to use:
-> EMAIL=<email> PASSWORD=<password> node index
+
+    EMAIL=email PASSWORD=password node index
 
 ###
 Denis Tsoi <denistsoi@gmail.com>
