@@ -1,7 +1,9 @@
 # fanatic
 
-A script to automate stackoverflow login using Puppetter [https://github.com/denistsoi/fantatic].
+A script to automate stackoverflow login using Puppetter [https://github.com/denistsoi/fantatic].  
 Using Procfile, deploy to heroku.
+
+![fanatic](https://media.giphy.com/media/pPzjpxJXa0pna/giphy.gif)
 
 ### Note:
 
@@ -13,7 +15,12 @@ Using Procfile, deploy to heroku.
 
     EMAIL=email PASSWORD=password node index
 
-###
+### References:
+
+- https://timleland.com/headless-chrome-on-heroku/
+- https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-on-heroku
+
+### Author
 Denis Tsoi <denistsoi@gmail.com>
 
 ### license
